@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PA1_file1.csv",
+            "request": "launch",
+            "mainClass": "Cs214Project",
+            "projectName": "pa1-emilythomastech",
+            "args": ["pa1-emilythomastech/database/files/file1.csv", "output1.csv"]
+        },
+        {
+            "type": "java",
+            "name": "PA1_file2.csv",
+            "request": "launch",
+            "mainClass": "Cs214Project",
+            "projectName": "pa1-emilythomastech",
+            "args": ["pa1-emilythomastech/database/files/file2.csv", "output2.csv"]
+        }
+    ]
+}
